@@ -1,0 +1,219 @@
+html,body{
+    width: 1440px;
+}
+
+
+body{
+    font-family: 'Encode Sans', sans-serif;
+    background-color: #040810;
+}
+.headline{
+    font-size: 64px;
+    font-weight:900
+}
+.caption{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.circle{
+    width: 52px;
+    height: 52px;
+}
+#get-started, #read-more-btn{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom:35px;
+    left:35px
+}
+#sidebar{
+    height:336px ;
+    width: 53px;
+
+}
+#brand{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+nav>ul>li>a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.rectangle1{
+    height: 104px;
+    width: 203px;
+    background-color: #840313;
+    position: absolute;
+    bottom: 80px;
+    right:  37%;
+    z-index: -1;
+}
+.rectangle2{
+    height: 251px;
+    width: 260px;
+    position: absolute;
+    z-index: -3;
+    background-color: #A80014 ;  
+    position: absolute;
+    bottom: 80px;
+    right:  30%;
+}
+
+.hr{
+   height: 10px;
+}
+hr{
+    border:solid white 4px;
+    background-color: white;
+}
+#about{
+    margin-top: 30px;
+}
+#welcome{
+    position: relative;
+    
+}
+.square{
+    width: 36%;
+    height: 132px;
+    z-index: -10;
+    
+    /* width: 172px; */
+    
+    
+}
+#one{
+    position: relative;
+    top: 0%;
+    left: -30%;
+
+}
+#two{
+    position: relative;
+    top: -14%;
+    left: 50%;
+    
+}
+#three{
+    position: relative;
+    bottom: -5%;
+    left: -30%;
+    
+}
+#four{
+    position: relative;
+    bottom: 10%;
+    left: 50%;
+    
+}
+.video{
+    width: 100%;
+    position: relative;
+    bottom: 55%;
+    left: -25%;
+}
+#about-note{
+    padding:20px;
+    font-size: 24px; 
+    font-weight: 500;
+}
+
+#skills{
+    position: relative;
+    top: -400px;
+}
+.underline{
+    width: 250px;
+    margin:auto;
+}
+.card{
+    padding: 30px;
+}
+.skill-icons{
+    width: 92px;
+    height: 92px;
+}
+.skill-icons img{
+    width: 92px;
+    height: 92px;
+    padding: 20px;
+}
+#products{
+    list-style: none;
+    display: flex;
+}
+#products li{
+    padding: 50px 40px 0 40px; 
+    margin: auto;
+}
+#products li a{
+    text-decoration: none;
+}
+
+#slider{
+    width: 80%;
+}
+
+#more-products{
+    position: relative;
+    bottom: 40px;
+    left: 100px;
+}
+#email, #tel, .link{
+    text-decoration: none;
+    color: white;
+}
+
+input{
+    background-color: transparent;
+    width: 100%;
+    border: none ;
+    border-bottom: solid 2px ;
+    fill:transparent;
+    border-radius: 5px ;
+    height: 40px;
+}
+label{
+    padding-top: 50px;
+}
+#submit{
+    position: relative;
+    top:-40px;
+    left: 40px
+}
+.subscribe-input{
+    color: white;
+    width: 60%;
+    background-color: thistle;
+    border:none;
+}
+footer{
+    padding:50px;
+}
+.flex{
+    display:flex ;
+    flex-direction: row;
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+.footer-grid p a{
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width:480px){
+   
+    body{
+        display:flex;
+        flex-direction: column;
+    }
+
+
+    
+}
